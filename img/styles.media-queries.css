@@ -1,0 +1,19 @@
+
+
+@media all and(max-width:480px){
+  img{
+    justify-content: flex-start;
+    visibility: hidden;
+    flex-direction: row;
+    flex-flow: column nowrap;
+ }
+} 
+
+
+
+
+@media screen and (min-width:480px) and (max-width:768px){
+img{
+  justify-content: flex-end;
+}
+}
